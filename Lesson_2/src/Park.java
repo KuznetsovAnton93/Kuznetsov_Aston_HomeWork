@@ -45,7 +45,7 @@ public class Park {
     public static void main(String[] args) {
         Park park = new Park("Dreamland", 3);
 
-        park.addAttraction(0, "Roller Coaster", "10:00 - 22:00", 150.0);
+        park.addAttraction(0, "Roller Coaster1", "10:00 - 22:00", 150.0);
         park.addAttraction(1, "Ferris Wheel", "10:00 - 22:00", 100.0);
         park.addAttraction(2, "Haunted House", "12:00 - 23:00", 200.0);
 
