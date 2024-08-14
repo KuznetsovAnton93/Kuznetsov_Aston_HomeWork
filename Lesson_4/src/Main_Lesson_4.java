@@ -12,7 +12,7 @@ class MyArrayDataException extends Exception {
     }
 }
 
-public class Main {
+public class Main_Lesson_4 {
     // Метод для проверки массива и суммирования его элементов
     public static int sumArray(String[][] arr) throws MyArraySizeException, MyArrayDataException {
         if (arr.length != 4 || arr[0].length != 4) {
