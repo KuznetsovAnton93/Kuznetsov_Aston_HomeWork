@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Добавьте зависимости вашего проекта сюда
+    // Например, зависимости для тестирования с TestNG
+    testImplementation 'org.testng:testng:7.10.0'
+}
+
+test {
+    useTestNG()
+}
