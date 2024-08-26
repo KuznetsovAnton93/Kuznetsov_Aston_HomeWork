@@ -8,7 +8,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- Пример зависимости -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
